@@ -285,4 +285,111 @@ Delivers a message in the language of Offering Managers
 ##### Speakers
 IBM Accessibility enablement team
 ---------------------------------
+## Keyboard Accessibility & .focus() Management in Web Development
+### Making Buttonss
+- `<a>`
+    + role=button
+    + call event.preventDefault()
+    + add JS deydown handler for SPACE
+- `<div>`
+    + JS Kedown listener for SPACE & ENTER
+    + event.preventDefault()
+    + JS click listener
+    + tabindes-0
+    + role=button
+#### Common pitfalls
+- event.preventDefault() for alll keyboard creates a trap
+- listener doesn't filter keys properly
+- No role means screen readers cannot access it
+#### Why ARIA instead of Button
+- Retrofitting existing applications
+- More CSS control
+### Semantic HTML
+- Links are like teleporting
+- Buttons are a transmogrifier (Calvin & Hobs)
+### What is focus?
+- ensuring a user sees important information
+- Ensuring a user is aware of important updates
+- Ensuring a user's point of interaction is maintained/logical
+### Applying focus
+- `<button>`
+    + 
+##### Speakers
+- Deque
 
+## Being Right is Not Enough
+### Where acvocates are born
+- We have experienced disablility
+    + First-hand
+        * from birth
+        * acquired
+    + Second-hand
+        * as a parent/child/sibling/relative/caregiver
+        * The workplace
+- We learned we were casuing problems
+    + In orur development || management
+### Stummbling blocks
+Lead to burnout.
+### Dealing with Ignorance
+This is a marathon, not a sprint. People disagree with us. We're demanding something people aren't equipped to provide. We're demanding something that costs money & resources. Not all problems can be solved with an email or a phone call.
+
+We need to be able to establish relationships, even when we're really pissed off. We need to meet people where they need us and be there when they come around.
+### What is Advocacy?
+Advocacy is a chance to solve the problem from the inside; finding people to help achieve your goals. It requires more work. It's not always effective.
+### Template for Advocacy
+- This is the problem
+    + Practical message
+- This is how it affects people
+    + Personal message
+- You can solve it
+    + Technical message
+- If you don't, these are the consequences
+    + Political message
+If after this, the person isn't an advocate, then they're an advisary.
+- Stella Young
+- Derek Featherstone
+- Jim Thatcher
+- Judy Brewer, W3C-WAI Founder
+Practical, personal, technical, & political ways to advocate for acessibility.
+### What _Isn't_ Advocacy
+- Direct action/protest
+- Legal action
+- Venting; personal attacks
+Too strong & pushes people away instead of bringing them in as advocates. These are adversarial actions & have a place, but should be avoided.
+### Know your Audience
+Ask about their role.
+- Corporate policy
+    + Practical, personal, political, technical
+    + Sensitie to reputation
+    + Eager to lead
+    + Can drive compliance
+- Sales & marketing
+    + Practical, political, technical, personal
+    + Ask if a product &/|| accessibility specialist is there
+    + Verify every claim
+    + Don't oversell
+- Product Management
+    + Practical, persona, technical, political
+    + These can be the best advocates
+    + Control product drequirements, deadlines, budget
+    + Respond well to concrete requirements
+- Engineer
+    + Technical, practical, personal, political
+    + Often measured by performance & deadline
+    + May want to help, but aren't empowered to
+    + If you can show them how to do it better, they will learn. Maybe their bosses won't even notice until it's too late.
+- Product Support
+    + Technical, practical, political, personal
+    + Often not a part of the product team.
+    + Ask for accessibility desk, if available. If not, ask for a member of the product team to contact you.
+- Legal
+    + Political, practical, personal, technical
+    + If you're here, they're porbably afraid of you
+    + Ask if a product team representative is here. If not, this is probably not an advocacy opportunity
+    + Don't oversell; they can read legalese.
+- A11y Orgs
+    + Personal, practical, technical, political
+    + These are _your_ advocates
+    + They understand the technical & political angles. What they need are your experiences.
+##### Speakers
+- Matt May
